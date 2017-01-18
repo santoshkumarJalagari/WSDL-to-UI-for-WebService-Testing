@@ -28,8 +28,8 @@ public class DatabaseHandler
 //			String mysqlurl = "jdbc:mysql://"+probob.getIp()+":"+probob.getPort()
 //					+"/"+probob.getDatbase_name();
 //			System.out.println(mysqlurl+" "+probob.getUsername()+" "+probob.getPassword());
-			con = DriverManager.getConnection("jdbc:mysql://10.31.211.56:3306/automation", "root", "505tulsa");            
-//			con=DriverManager.getConnection("jdbc:mysql://10.31.211.56:3306/automation", "root", "505tulsa");
+			con = DriverManager.getConnection("jdbc:mysql://ServerName:3306/automation", "root", "Password");            
+//			con=DriverManager.getConnection("jdbc:mysql://ServerName:3306/automation", "root", "Password");
 		}
 		catch (Exception ex) 
 		{
@@ -50,8 +50,8 @@ public class DatabaseHandler
 //			String mysqlurl = "jdbc:mysql://"+probob.getIp()+":"+probob.getPort()
 //					+"/"+probob.getDatbase_name();
 //			System.out.println(mysqlurl+" "+probob.getUsername()+" "+probob.getPassword());
-			con = DriverManager.getConnection("jdbc:mysql://10.31.211.56:3306/automation", "root", "505tulsa");
-//			con=DriverManager.getConnection("jdbc:mysql://10.31.211.56:3306/automation", "root", "505tulsa");
+			con = DriverManager.getConnection("jdbc:mysql://ServerName:3306/automation", "root", "Password");
+//			con=DriverManager.getConnection("jdbc:mysql://ServerName:3306/automation", "root", "Password");
 		}
 		catch (Exception ex) 
 		{
