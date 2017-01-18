@@ -1,0 +1,3 @@
+2014-03-27 10:47:36,887 WARN  [SoapUI] Missing folder [D:\Eclipse\workspace\WebServices\.\ext] for external libraries
+2014-03-27 10:47:37,280 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\285450\soapui-settings.xml]
+2014-03-27 10:47:37,899 INFO  [WsdlProject] Loaded project from [file:/D:/WSDLFiles/PartyServices-soapui-project.xml]

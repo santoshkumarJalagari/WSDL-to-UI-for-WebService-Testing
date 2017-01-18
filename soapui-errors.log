@@ -1,0 +1,97 @@
+2014-03-26 18:25:29,218 ERROR [errorlog] java.net.MalformedURLException: no protocol: TestProjectA
+java.net.MalformedURLException: no protocol: TestProjectA
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:203)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:198)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:183)
+	at com.webservice.services.WebServicesSoap.soapTest(WebServicesSoap.java:112)
+	at wsdlMethods.TestClass.main(TestClass.java:74)
+2014-03-26 18:25:29,862 ERROR [errorlog] com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException
+com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader.loadXmlObject(WsdlLoader.java:138)
+	at com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils.getDefinitionParts(SchemaUtils.java:534)
+	at com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils.getDefinitionParts(SchemaUtils.java:523)
+	at com.eviware.soapui.impl.support.definition.support.AbstractDefinitionCache.update(AbstractDefinitionCache.java:97)
+	at com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext$Loader.construct(AbstractDefinitionContext.java:226)
+	at com.eviware.soapui.support.swing.SwingWorkerDelegator.construct(SwingWorkerDelegator.java:46)
+	at com.eviware.soapui.support.swing.SwingWorker$2.run(SwingWorker.java:149)
+	at java.lang.Thread.run(Unknown Source)
+2014-03-26 18:26:42,615 ERROR [errorlog] com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/D:/Eclipse/workspace/WebServices/TestProjectA/]
+com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/D:/Eclipse/workspace/WebServices/TestProjectA/]
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:404)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:234)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:203)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:198)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:183)
+	at com.webservice.services.WebServicesSoap.soapTest(WebServicesSoap.java:112)
+	at wsdlMethods.TestClass.main(TestClass.java:74)
+Caused by: org.apache.xmlbeans.XmlException: error: Unexpected end of file after null
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3486)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1276)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1263)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:345)
+	at com.eviware.soapui.config.SoapuiProjectDocumentConfig$Factory.parse(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:314)
+	... 6 more
+Caused by: org.xml.sax.SAXParseException; systemId: file:; lineNumber: 1; columnNumber: 1; Unexpected end of file after null
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.reportFatalError(Piccolo.java:1038)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:723)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3454)
+	... 11 more
+2014-03-26 18:26:42,804 ERROR [errorlog] com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException
+com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader.loadXmlObject(WsdlLoader.java:138)
+	at com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils.getDefinitionParts(SchemaUtils.java:534)
+	at com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils.getDefinitionParts(SchemaUtils.java:523)
+	at com.eviware.soapui.impl.support.definition.support.AbstractDefinitionCache.update(AbstractDefinitionCache.java:97)
+	at com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext$Loader.construct(AbstractDefinitionContext.java:226)
+	at com.eviware.soapui.support.swing.SwingWorkerDelegator.construct(SwingWorkerDelegator.java:46)
+	at com.eviware.soapui.support.swing.SwingWorker$2.run(SwingWorker.java:149)
+	at java.lang.Thread.run(Unknown Source)
+2014-03-26 18:30:44,419 ERROR [errorlog] com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/D:/Eclipse/workspace/WebServices/TestProjectA/]
+com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/D:/Eclipse/workspace/WebServices/TestProjectA/]
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:404)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:234)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:203)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:198)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:183)
+	at com.webservice.services.WebServicesSoap.soapTest(WebServicesSoap.java:112)
+	at wsdlMethods.TestClass.main(TestClass.java:74)
+Caused by: org.apache.xmlbeans.XmlException: error: Unexpected end of file after null
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3486)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1276)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1263)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:345)
+	at com.eviware.soapui.config.SoapuiProjectDocumentConfig$Factory.parse(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:314)
+	... 6 more
+Caused by: org.xml.sax.SAXParseException; systemId: file:; lineNumber: 1; columnNumber: 1; Unexpected end of file after null
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.reportFatalError(Piccolo.java:1038)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:723)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3454)
+	... 11 more
+2014-03-26 18:42:28,496 ERROR [errorlog] com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/D:/Eclipse/workspace/WebServices/TestProjectA/]
+com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/D:/Eclipse/workspace/WebServices/TestProjectA/]
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:404)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:234)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:203)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:198)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:183)
+	at com.webservice.services.WebServicesSoap.soapTest(WebServicesSoap.java:115)
+	at wsdlMethods.TestClass.main(TestClass.java:74)
+Caused by: org.apache.xmlbeans.XmlException: error: Unexpected end of file after null
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3486)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1276)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1263)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:345)
+	at com.eviware.soapui.config.SoapuiProjectDocumentConfig$Factory.parse(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:314)
+	... 6 more
+Caused by: org.xml.sax.SAXParseException; systemId: file:; lineNumber: 1; columnNumber: 1; Unexpected end of file after null
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.reportFatalError(Piccolo.java:1038)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:723)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3454)
+	... 11 more

@@ -1,0 +1,261 @@
+body{
+    background-color: #eee;
+    padding-top: 95px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+  
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+/****************************
+ 
+    Navbar style code
+ 
+ ****************************/
+
+.navbar-inner{
+    background: none;
+    filter: none;
+    background-color: #efefef;
+    
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar .nav > li > a{
+    color: #626262;
+    font-size: 18px;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover{
+    color: #000;
+    background: none;
+}
+
+.navbar .nav{
+    padding-left: 20px;
+}
+
+.navbar .brand{
+    color: #626262;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-left: 20px;
+}
+
+.navbar .btn-navbar{
+    margin-right: 35px;
+    background: none;
+}
+
+
+/****************************
+ 
+    body style code
+ 
+ ****************************/
+
+.title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#support-link i{
+    font-size: 40px;
+    color: #000;
+}
+
+#support-link i:hover{
+    color: #626262;
+}
+
+.img-space{
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+/****************************
+ 
+    Tutorial Table style code
+ 
+ ****************************/
+
+.table thead{
+    background-color: #262626;
+    color: #fff;
+    }
+
+.table tbody{
+    background-color: #f9f9f9;
+}
+
+.small-width{
+    width: 20%;
+}
+
+/****************************
+ 
+    Login Form style code
+ 
+ ****************************/
+
+.loginBox{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 40px;
+        margin-top: 40px;
+}
+
+.loginBox .alert{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.loginBox .title{
+	background-color: #f7f7f7;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	color: #bbbbbb;
+	font-size: 20px;
+	text-align: center;
+}
+
+.loginBox form{
+	margin-top: 15px;
+	margin-left: 25%;
+	color: #666;
+	padding-bottom: 10px;
+}
+
+.loginBox form input[type="text"]{
+    background-color: #fff;
+}
+
+.loginBox form textarea{
+    background-color: #fff;
+}
+
+/****************************
+ 
+    Themes View style code
+ 
+ ****************************/
+
+.themeBox{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 40px;
+        margin-top: 40px;
+        text-align: center;
+}
+
+.themeBox .title{
+	background-color: #f7f7f7;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	color: #bbb;
+	font-size: 22px;
+	text-align: center;
+}
+
+.themeBox p{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 17px;
+}
+
+
+
+/****************************
+ 
+    Contact Form style code
+ 
+ ****************************/
+
+input[type="text"], input[type="email"]{
+    height: 25px;
+    background-color: #d9d9d9;
+}
+
+textarea{
+    background-color: #d9d9d9;
+}
+
+input[type="text"]:focus, input[type="email"]:focus{
+    background-color: #fff;
+}
+
+textarea:focus{
+    background-color: #fff;
+}
+
+
+/****************************
+ 
+    Footer style code
+ 
+ ****************************/
+
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer p{
+    font-size: 14px;
+}
+
+.footer i{
+    font-size: 40px;
+    color: #000;
+}
+
+.footer i:hover{
+    color: #626262;
+}
+
+hr{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #fbfbfb;
+}
+
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(../img/cal.gif) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+input.dp-applied {
+	width: 140px;
+	float: left;
+}

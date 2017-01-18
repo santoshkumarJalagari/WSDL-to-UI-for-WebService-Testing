@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>System Integrity</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.weblogin.LoginProcess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>com.weblogin.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This servlet is responsible to add the wsdl file to the portal</description>
+    <display-name>AddWSDLFile</display-name>
+    <servlet-name>AddWSDLFile</servlet-name>
+    <servlet-class>com.browseWSDL.UploadWSDLFile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddWSDLFile</servlet-name>
+    <url-pattern>/AddWSDLFile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This servlet is responsible to add the wsdl file to the portal</description>
+    <display-name>SendRequest</display-name>
+    <servlet-name>SendRequestFields</servlet-name>
+    <servlet-class>com.servlet.SendRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendRequestFields</servlet-name>
+    <url-pattern>/SendRequestFields</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>download the responce file</description>
+    <display-name>downloadResponceFile</display-name>
+    <servlet-name>downloadResponceFile</servlet-name>
+    <servlet-class>com.servlet.DownloadResponce</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>downloadResponceFile</servlet-name>
+    <url-pattern>/downloadResponceFile</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <description>Auto Fill request form</description>
+    <display-name>AutoFill</display-name>
+    <servlet-name>AutoFill</servlet-name>
+    <servlet-class>com.servlet.AutoFillRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AutoFill</servlet-name>
+    <url-pattern>/AutoFill</url-pattern>
+  </servlet-mapping>
+</web-app>

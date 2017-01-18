@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/ActiveQueryBuilder.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/activeQueryBuilder-trial.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/bcmail-jdk15-1.44.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/bcprov-jdk15-144.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/binding-2.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/cajo-1.142.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/engine-gecko-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/engine-ie-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/engine-webkit-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/ext-xmlbeans-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/ezmorph-1.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/flex-messaging-common.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/flex-messaging-common-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/flex-messaging-core-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/flex-messaging-opt-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/flex-messaging-proxy-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/flex-messaging-remoting-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/forms-1.0.7.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/groovy-all-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/hermes-1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/idw-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/j2ee-xmlbeans-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jasperreports-4.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/javamail-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jcalendar-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jcommon-1.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jms-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/js-1.7R2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jsr173_1.0_api-xmlbeans-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jtidy-r872-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jxbrowser-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/l2fprod-common-directorychooser-7.3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/l2fprod-common-fontchooser-7.3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/license4j-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/looks-2.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/MozillaGlue-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/MozillaInterfaces-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/netcomponents-1.3.8a.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/not-yet-commons-ssl-0.3.11.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/opencsv-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/opensaml-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/policy-xmlbeans-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/reports-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/rsyntaxtextarea-1.3.4.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/saxon-9.1.0.8j.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/saxon-dom-9.1.0.8j.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/soapui-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/soapui-4.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/soapui-coverage-xmlbeans-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/soapui-pro-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/soapui-xmlbeans-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/soap-xmlbeans-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/swingx-soapui.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/tuxpack-0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/wadl-xmlbeans-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/winpack-3.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/wsdl4j-1.6.2-fixed.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/wss4j-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xbean_xpath-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xbean-fixed-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xml-apis-2.9.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xmlpublic-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xmlsec-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xmlunit-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xom-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xstream-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xulrunner-linux-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xulrunner-linux64-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xulrunner-mac-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/Jar files/SOAP/soap/xulrunner-windows-2.8.28035.jar"/>
+	<classpathentry kind="lib" path="C:/Users/285450/Desktop/abcedef.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
